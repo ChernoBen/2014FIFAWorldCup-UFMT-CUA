@@ -2,14 +2,14 @@ create database copa2014;
 use copa2014;
 create table `jogador`( 
 	`Id_Jogador` int not null auto_increment,
-    `Nome` varchar(30) not null,
-    `Camisa` int default 0,
+    	`Nome` varchar(30) not null,
+    	`Camisa` int default 0,
 	`Posicao` varchar(30)not null, 
 	`Altura` float(10) not null, 
 	`Pais` varchar(30) default null, 
 	`Assistencias` int not null,
-    `Clube` varchar(30) default 'não informado',
-    primary key (`Id_Jogador`)
+    	`Clube` varchar(30) default 'não informado',
+    	primary key (`Id_Jogador`)
     
 	);
    
@@ -41,9 +41,9 @@ create table `Jogos`(
 
 create table `contusao`(
 	`Id_jogador` int default null,
-    `Data` time not null,
-    `Descricao` varchar(256),
-    primary key(`Data`)
+    	`Data` time not null,
+    	`Descricao` varchar(256),
+    	primary key(`Data`)
 );
 
 
