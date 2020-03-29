@@ -1797,7 +1797,6 @@ update jogador set Clube = "VfL Wolfsburg" where Id_Jogador=4;
 update jogador set Clube = "Newcastle" where Id_Jogador=3;
 update jogador set Clube = "VfB Stuttgart" where Id_Jogador=2;
 update jogador set Clube = "Borussia Mönchengladbach" where Id_Jogador=1;
-use copa2014;
 
 select Nome,Posicao,Clube from jogador where jogador.Pais='Estados unidos';
 select * from pais where Nvitorias > 0;
